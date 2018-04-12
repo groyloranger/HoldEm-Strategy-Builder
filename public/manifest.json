@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Strategy Builder",
+  "name": "Hold'Em Strategy Builder",
   "icons": [
     {
       "src": "favicon.ico",
