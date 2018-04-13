@@ -1,11 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Storyshots App default 1`] = `
-<div>
-  App
-</div>
-`;
-
 exports[`Storyshots Player active 1`] = `
 <div
   className="container active"
