@@ -5,3 +5,27 @@ exports[`Storyshots Community default 1`] = `
   Community
 </div>
 `;
+
+exports[`Storyshots Community flop 1`] = `
+<div>
+  As 7h 2d _ _
+</div>
+`;
+
+exports[`Storyshots Community preflop 1`] = `
+<div>
+  _ _ _ _ _
+</div>
+`;
+
+exports[`Storyshots Community river 1`] = `
+<div>
+  As 7h 2d 3c Jd
+</div>
+`;
+
+exports[`Storyshots Community turn 1`] = `
+<div>
+  As 7h 2d 3c _
+</div>
+`;
