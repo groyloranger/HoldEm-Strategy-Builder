@@ -1,7 +1,7 @@
 // @flow
 import React from 'react';
 
-// import '../styles/Community.css';
+import '../styles/Community.css';
 
 type Props = {
   board: string[], // external optional
@@ -13,7 +13,7 @@ export default function Community(props: Props) {
     const cards = props.board.slice();
     let str = '';
     for (let len = 5; len > 0; len -= 1) {
-      const card = ((cards.length === len) ? cards.pop().concat(' ') : '_ ');
+      const card = ((cards.length === len) ? cards.pop().concat(' ') : '__ ');
       str = card.concat(str);
     }
     return str.trim();
@@ -43,10 +43,10 @@ export default function Community(props: Props) {
   };
 
   return (
-    <div>
-      <h3>{currentRound()}</h3>
-      <h1>{boardToString()}</h1>
-      <h3>Pot: {props.pot}</h3>
+    <div className="container">
+      <h3 className="round">{currentRound()}</h3>
+      <h1 className="board">{boardToString()}</h1>
+      <h3 className="pot">Pot: {props.pot}</h3>
     </div>
   );
 }

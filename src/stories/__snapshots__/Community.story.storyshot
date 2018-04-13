@@ -1,14 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Storyshots Community flop 1`] = `
-<div>
-  <h3>
+<div
+  className="container"
+>
+  <h3
+    className="round"
+  >
     Flop
   </h3>
-  <h1>
-    As 7h 2d _ _
+  <h1
+    className="board"
+  >
+    As 7h 2d __ __
   </h1>
-  <h3>
+  <h3
+    className="pot"
+  >
     Pot: 
     0
   </h3>
@@ -16,14 +24,22 @@ exports[`Storyshots Community flop 1`] = `
 `;
 
 exports[`Storyshots Community preflop 1`] = `
-<div>
-  <h3>
+<div
+  className="container"
+>
+  <h3
+    className="round"
+  >
     Preflop
   </h3>
-  <h1>
-    _ _ _ _ _
+  <h1
+    className="board"
+  >
+    __ __ __ __ __
   </h1>
-  <h3>
+  <h3
+    className="pot"
+  >
     Pot: 
     0
   </h3>
@@ -31,14 +47,22 @@ exports[`Storyshots Community preflop 1`] = `
 `;
 
 exports[`Storyshots Community river 1`] = `
-<div>
-  <h3>
+<div
+  className="container"
+>
+  <h3
+    className="round"
+  >
     River
   </h3>
-  <h1>
+  <h1
+    className="board"
+  >
     As 7h 2d 3c Jd
   </h1>
-  <h3>
+  <h3
+    className="pot"
+  >
     Pot: 
     0
   </h3>
@@ -46,14 +70,22 @@ exports[`Storyshots Community river 1`] = `
 `;
 
 exports[`Storyshots Community turn 1`] = `
-<div>
-  <h3>
+<div
+  className="container"
+>
+  <h3
+    className="round"
+  >
     Turn
   </h3>
-  <h1>
-    As 7h 2d 3c _
+  <h1
+    className="board"
+  >
+    As 7h 2d 3c __
   </h1>
-  <h3>
+  <h3
+    className="pot"
+  >
     Pot: 
     0
   </h3>
@@ -61,14 +93,22 @@ exports[`Storyshots Community turn 1`] = `
 `;
 
 exports[`Storyshots Community with pot 1`] = `
-<div>
-  <h3>
+<div
+  className="container"
+>
+  <h3
+    className="round"
+  >
     River
   </h3>
-  <h1>
+  <h1
+    className="board"
+  >
     As 7h 2d 3c Jd
   </h1>
-  <h3>
+  <h3
+    className="pot"
+  >
     Pot: 
     150
   </h3>
