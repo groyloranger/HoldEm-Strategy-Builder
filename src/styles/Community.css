@@ -1,0 +1,17 @@
+.container {
+  width: 300px;
+  border: 2px solid black;
+}
+
+.round {
+  text-align: center;
+}
+
+.board {
+  text-align: center;
+  word-spacing: 4px;
+}
+
+.pot {
+  text-align: center;
+}
