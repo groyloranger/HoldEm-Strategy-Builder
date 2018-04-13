@@ -9,6 +9,14 @@
   border: 2px solid black;
 }
 
+.container.active {
+  background-color: sandybrown
+}
+
+.container.folded {
+  background-color: gray
+}
+
 .name {
   text-align: center;
 }

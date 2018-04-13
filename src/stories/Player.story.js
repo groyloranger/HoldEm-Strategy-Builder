@@ -10,4 +10,13 @@ storiesOf('Player', module)
   ))
   .add('with name', () => (
     <Player stack={100} bet={0} name="Button" />
+  ))
+  .add('folded', () => (
+    <Player stack={100} bet={0} name="Button" folded />
+  ))
+  .add('active', () => (
+    <Player stack={100} bet={0} name="Button" active />
+  ))
+  .add('folded overrides active', () => (
+    <Player stack={100} bet={0} name="Button" folded active />
   ));
