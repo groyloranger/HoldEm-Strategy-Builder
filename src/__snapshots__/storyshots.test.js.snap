@@ -5,3 +5,108 @@ exports[`Storyshots App default 1`] = `
   App
 </div>
 `;
+
+exports[`Storyshots Player active 1`] = `
+<div
+  className="container active"
+>
+  <h3
+    className="name"
+  >
+    Button
+  </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Player folded 1`] = `
+<div
+  className="container folded"
+>
+  <h3
+    className="name"
+  >
+    Button
+  </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Player folded overrides active 1`] = `
+<div
+  className="container folded"
+>
+  <h3
+    className="name"
+  >
+    Button
+  </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Player inactive 1`] = `
+<div
+  className="container"
+>
+  <h3
+    className="name"
+  >
+    Button
+  </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Player without name 1`] = `
+<div
+  className="container"
+>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
