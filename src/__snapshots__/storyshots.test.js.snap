@@ -7,14 +7,42 @@ exports[`Storyshots App default 1`] = `
 `;
 
 exports[`Storyshots Player default 1`] = `
-<ul>
-  <li>
-    Stack: 
-    100
-  </li>
-  <li>
-    Bet: 
-    0
-  </li>
-</ul>
+<div
+  className="container"
+>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+`;
+
+exports[`Storyshots Player with name 1`] = `
+<div
+  className="container"
+>
+  <h3
+    className="name"
+  >
+    Button
+  </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
 `;
