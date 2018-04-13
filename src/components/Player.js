@@ -2,11 +2,17 @@
 import React from 'react';
 
 type Props = {
-  stack: number
+  bet: number,
+  stack: number,
 }
 
 export default function Player(props: Props) {
-  return <div>{props.stack}</div>;
+  return (
+    <ul>
+      <li>Stack: {props.stack}</li>
+      <li>Bet: {props.bet}</li>
+    </ul>
+  );
 }
 
 Player.defaultProps = {};

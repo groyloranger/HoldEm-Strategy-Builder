@@ -7,7 +7,14 @@ exports[`Storyshots App default 1`] = `
 `;
 
 exports[`Storyshots Player default 1`] = `
-<div>
-  100
-</div>
+<ul>
+  <li>
+    Stack: 
+    100
+  </li>
+  <li>
+    Bet: 
+    0
+  </li>
+</ul>
 `;
