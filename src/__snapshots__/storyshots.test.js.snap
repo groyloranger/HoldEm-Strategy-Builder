@@ -28,23 +28,6 @@ exports[`Storyshots Player active 1`] = `
 </div>
 `;
 
-exports[`Storyshots Player default 1`] = `
-<div
-  className="container"
->
-  <ul>
-    <li>
-      Stack: 
-      100
-    </li>
-    <li>
-      Bet: 
-      0
-    </li>
-  </ul>
-</div>
-`;
-
 exports[`Storyshots Player folded 1`] = `
 <div
   className="container folded"
@@ -89,7 +72,7 @@ exports[`Storyshots Player folded overrides active 1`] = `
 </div>
 `;
 
-exports[`Storyshots Player with name 1`] = `
+exports[`Storyshots Player inactive 1`] = `
 <div
   className="container"
 >
@@ -98,6 +81,23 @@ exports[`Storyshots Player with name 1`] = `
   >
     Button
   </h3>
+  <ul>
+    <li>
+      Stack: 
+      100
+    </li>
+    <li>
+      Bet: 
+      0
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Storyshots Player without name 1`] = `
+<div
+  className="container"
+>
   <ul>
     <li>
       Stack: 
