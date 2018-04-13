@@ -2,44 +2,75 @@
 
 exports[`Storyshots Community flop 1`] = `
 <div>
+  <h3>
+    Flop
+  </h3>
   <h1>
     As 7h 2d _ _
   </h1>
   <h3>
-    Flop
+    Pot: 
+    0
   </h3>
 </div>
 `;
 
 exports[`Storyshots Community preflop 1`] = `
 <div>
+  <h3>
+    Preflop
+  </h3>
   <h1>
     _ _ _ _ _
   </h1>
   <h3>
-    Preflop
+    Pot: 
+    0
   </h3>
 </div>
 `;
 
 exports[`Storyshots Community river 1`] = `
 <div>
+  <h3>
+    River
+  </h3>
   <h1>
     As 7h 2d 3c Jd
   </h1>
   <h3>
-    River
+    Pot: 
+    0
   </h3>
 </div>
 `;
 
 exports[`Storyshots Community turn 1`] = `
 <div>
+  <h3>
+    Turn
+  </h3>
   <h1>
     As 7h 2d 3c _
   </h1>
   <h3>
-    Turn
+    Pot: 
+    0
+  </h3>
+</div>
+`;
+
+exports[`Storyshots Community with pot 1`] = `
+<div>
+  <h3>
+    River
+  </h3>
+  <h1>
+    As 7h 2d 3c Jd
+  </h1>
+  <h3>
+    Pot: 
+    150
   </h3>
 </div>
 `;

@@ -16,4 +16,7 @@ storiesOf('Community', module)
   ))
   .add('river', () => (
     <Community board={['As', '7h', '2d', '3c', 'Jd']} />
+  ))
+  .add('with pot', () => (
+    <Community board={['As', '7h', '2d', '3c', 'Jd']} pot={150} />
   ));

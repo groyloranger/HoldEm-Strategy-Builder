@@ -5,7 +5,8 @@ import React from 'react';
 
 type Props = {
   board: string[], // external optional
-}
+  pot?: number,
+};
 
 export default function Community(props: Props) {
   const boardToString = () => {
@@ -43,12 +44,14 @@ export default function Community(props: Props) {
 
   return (
     <div>
-      <h1>{boardToString()}</h1>
       <h3>{currentRound()}</h3>
+      <h1>{boardToString()}</h1>
+      <h3>Pot: {props.pot}</h3>
     </div>
   );
 }
 
 Community.defaultProps = {
   board: [],
+  pot: 0,
 };
