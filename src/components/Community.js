@@ -18,9 +18,33 @@ export default function Community(props: Props) {
     return str.trim();
   };
 
+  const currentRound = () => {
+    const len = props.board.length;
+    let round;
+    switch (len) {
+      case 0:
+        round = 'Preflop';
+        break;
+      case 3:
+        round = 'Flop';
+        break;
+      case 4:
+        round = 'Turn';
+        break;
+      case 5:
+        round = 'River';
+        break;
+      default:
+        round = 'Drawing';
+        break;
+    }
+    return round;
+  };
+
   return (
     <div>
-      {boardToString()}
+      <h1>{boardToString()}</h1>
+      <h3>{currentRound()}</h3>
     </div>
   );
 }
