@@ -5,3 +5,9 @@ exports[`Storyshots App default 1`] = `
   App
 </div>
 `;
+
+exports[`Storyshots Player default 1`] = `
+<div>
+  100
+</div>
+`;
